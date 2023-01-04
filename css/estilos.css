@@ -1,0 +1,1428 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Nixie One', cursive;
+}
+
+/* SECCION 1 */
+
+.principal {
+    background-image: url("../multimedia/fondo2.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+
+.principal h1 {
+    color: white;
+    font-family: 'Rouge Script', cursive;
+    font-size: 5.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 20;
+}
+
+.principal h2 {
+    color: white;
+    letter-spacing: 0.4rem;
+}
+
+.principal audio {
+    margin-top: 2rem;
+}
+
+
+/* SECCION 2  */
+
+.icono-texto {
+    background-color:  #b3c2b3;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono-texto svg {
+    width: 100px;
+    height: 100px;
+    /* padding: 0.5rem; */
+}
+
+.icono-texto h2 {
+    height: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.icono-texto p {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* ? ----- SECCION 3 Cuenta Regresiva ----- */
+
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.simply-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	width: 180px;
+	height: 180px;
+	margin: 0 20px;
+	border-radius: 20%;
+    border: solid #c7bdb2 5px;
+}
+
+.simply-amount {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size: 50px;
+	font-weight: 700;
+    color: gray;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* SECCION 4 */
+
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 9rem;
+}
+
+.informacion svg {
+    width: 95px;
+}
+
+.informacion h2 {
+    height: 5rem;
+    font-size: 37px;
+    letter-spacing: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.informacion h3 {
+    color: #a08c79;
+    height: 2rem;
+    font-size: 15px;
+    letter-spacing: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.informacion h4 {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2rem;
+    font-size: 11px;
+}
+
+
+/* SECCION 5 */
+
+.asistencias {
+    background-color:  #b3c2b3;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titulo { 
+    color: white;
+    height: 2rem;
+    font-size: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    height: 2rem;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirma {
+    height: 2rem;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valores {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2rem;
+}
+
+.valores h4 {
+    margin: 5px;
+}
+
+.valores h5 {
+    margin: 5px;
+}
+
+.button {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+    height: 45px;
+    border: none;
+    background-color: rgba(239, 234, 230, 1);
+    transition: all .4s ease-in-out;
+}
+
+.button a:hover {
+    transform: scale(1.2);
+}
+
+.comprobante {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+.comprobante h3 {
+    color: white;
+    height: 2rem;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2rem;
+}
+
+.cbu {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.alias {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.dress {
+    color: white;
+    height: 2rem;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.code {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+/* SECCION 6 */
+
+.recuerdos {
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-bi-camera2 {
+    width: 100%;
+    height: 5rem;
+}
+
+.hashtag {
+    height: 2.5rem;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gran-dia {
+    height: 2.2rem;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etiquetanos {
+    height: 2.2rem;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-social {
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-social a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+    height: 45px;
+    border: none;
+    background-color: #e1d8d0;
+    transition: all .4s ease-in-out;
+}
+
+.button-social a:hover {
+    transform: scale(1.2);
+}
+
+/* SECCION 7  */
+
+.historia {
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-h2 {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    letter-spacing: 0.5rem;
+    gap: 1rem;
+}
+
+.historia h3 {
+    height: 2rem;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.gallery__img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.gallery__img:hover{
+    transform: scale(1.18);
+}
+
+#galeria {
+    margin-left: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 5em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    grid-template-areas:
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8"
+    "img9 img10 img11 img12";
+    gap: 1rem;
+}
+
+.gallery__picture--g1 {
+    grid-area: img1;
+}
+
+.gallery__picture--g2 {
+    grid-area: img2;
+}
+
+.gallery__picture--g3 {
+    grid-area: img3;
+}
+
+.gallery__picture--g4 {
+    grid-area: img4;
+}
+
+.gallery__picture--g5 {
+    grid-area: img5;
+}
+
+.gallery__picture--g6 {
+    grid-area: img6;
+}
+
+.gallery__picture--g7 {
+    grid-area: img7;
+}
+
+.gallery__picture--g8 {
+    grid-area: img8;
+}
+
+.gallery__picture--g9 {
+    grid-area: img9;
+}
+
+.gallery__picture--g10 {
+    grid-area: img10;
+}
+
+.gallery__picture--g11 {
+    grid-area: img11;
+}
+
+.gallery__picture--g12 {
+    grid-area: img12;
+}
+
+
+/* SECCION 8 */
+
+
+#img-activa {
+    height: auto;
+}
+
+#contenedor-principal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color:  rgba(0, 0, 0, 0.80);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contenedor-interno {
+    padding: 100px;
+    background: rgba(0, 0, 0, 0);
+    width: 700px;
+    height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    background-color:  rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+#btn-cierra {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#btn-retrocede {
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 0;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#btn-adelanta {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+
+
+/* SECCION 9 */
+
+
+.section-fiesta {
+    height: 70vh;
+    background-image: url(../multimedia/photo-background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fiesta-baby {
+    width: 60%;
+    height: 15rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fiesta-baby h2 {
+    height: 3rem;
+    font-size: 35px;
+    letter-spacing: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.fiesta-baby h3 {
+    height: 2rem;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.fiesta-baby h4 {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+
+.footer {
+    background-color: rgba(239, 234, 230, 1);
+    height: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 14px;
+}
+
+
+/*            Music           */
+
+
+.control-panel h1{
+    font-family: 'Nixie One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.player .info .progress-bar {
+    margin-top: 30px;
+    height: 2px;
+    width: 100%;
+    position: relative;
+}
+
+
+.player .info.active {
+    top: -60px;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.player .control-panel {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    width: 300px;
+    height: 80px;
+    z-index: 5;
+}
+
+.player .control-panel .controls {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    padding: 0 15px
+}
+
+
+.player .control-panel .controls .play{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 38px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+
+.player .control-panel .controls .play:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+}
+
+
+.player .control-panel .controls .play {
+    background-image: url(../multimedia/playwhite.png);
+}
+
+
+.player .control-panel.active .controls .play {
+    background-image: url(../multimedia/stopwhite.png);
+}
+
+
+.firma{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 12px;
+}
+
+
+
+
+/*        mobile        */
+
+@media (min-width: 320px) and (max-width: 576px) {
+
+
+/* SECCION 1 */
+
+.principal {
+    background-attachment:scroll;
+}
+
+.principal h1 {
+    font-size: 3.5rem;
+}
+
+.principal h2 {
+    font-size: 0.8rem;
+}
+
+.principal audio {
+    margin-top: 2rem;
+}
+
+
+/* SECCION 2  */
+
+
+.icono-texto svg {
+    width: 85px;
+    height: 85px;
+}
+
+.icono-texto h2 {
+    font-size: 1.2rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.icono-texto p {
+    font-size: 0.9rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+
+/* ? ----- SECCION 3 Cuenta Regresiva ----- */
+
+#cuenta {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+	justify-content: space-evenly;
+    padding: 0.5rem;
+}
+
+#cuenta .simply-section {
+	width: 70px;
+	height: 67px;
+	margin: 0;
+    border: solid #c7bdb2 3px;
+}
+
+#cuenta .simply-amount {
+	font-size: 18px;
+}
+
+#cuenta .simply-word {
+	font-size: 11px;
+}
+
+
+/*SECCION 4*/
+
+
+.informacion {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.informacion svg {
+    width: 65px;
+}
+
+.informacion h2 {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.informacion h3 {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.informacion h4 {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+}
+
+.button {
+    height: 5rem;
+}
+
+.button a {
+    height: 2.5rem;
+    font-size: 0.8rem;
+}
+
+.button a:hover {
+    transform: none;
+}
+
+/* SECCION 5 */
+
+.titulo {
+    font-size: 26px;
+    align-items: center;
+}
+
+.subtitulo {
+    font-size: 15px;
+    align-items: center;
+}
+
+.confirma {
+    height: 2rem;
+    font-size: 14px;
+}
+
+.valores {
+    height: 10rem;
+    font-size: 12px;
+}
+
+.valores h4 {
+    margin: 6px;
+}
+
+.valores h5 {
+    margin: 6px;
+}
+
+.button {
+    height: 4rem;
+}
+
+.button a {
+    font-size: 10px;
+}
+
+.comprobante h3 {
+    font-size: 20px;
+}
+
+.cbu {
+    font-size: 12px;
+}
+
+.alias {
+    font-size: 12px;
+}
+
+.dress {
+    font-size: 22px;
+}
+
+.code {
+    font-size: 14px;
+}
+
+/* SECCION 6 */
+
+
+.bi-bi-camera2 {
+    width: 100%;
+    height: 60px;
+}
+
+.hashtag {
+    font-size: 22px;
+}
+
+.gran-dia {
+    height: 2rem;
+    font-size: 14px;
+}
+
+.etiquetanos {
+    height: 2rem;
+    font-size: 9px;
+    margin: 1px;
+}
+
+/* SECCION 7  */
+
+.historia {
+    height: 4rem;
+}
+
+.svg-h2 {
+    gap: 0.5rem;
+}
+
+.svg-h2 svg{
+    width: 10px;
+}
+
+.svg-h2 h2 {
+    font-size: 19px;
+}
+
+.historia h3 {
+    font-size: 10px;
+    height: 2rem;
+}
+
+.gallery__img {
+    width: 85%;
+    height: 100%;
+}
+
+.gallery__img:hover{
+    transform: none;
+}
+
+#galeria {
+    margin: 0;
+    padding-top: 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 180px;
+    grid-template-areas:
+    "img1 img1 img2 img2"
+    "img3 img3 img4 img4"
+    "img5 img5 img6 img6"
+    "img7 img7 img8 img8"
+    "img9 img9 img10 img10"
+    "img11 img11 img12 img12";
+    gap: 0.5rem;
+}
+
+/*  SECCION 8 */
+
+#img-activa {
+    width: 100%;
+}
+
+
+/* SECCION 9 */
+
+
+.section-fiesta {
+    background-attachment: scroll;
+}
+
+.fiesta-baby {
+    width: 85%;
+    height: 15rem;
+}
+
+.fiesta-baby h2 {
+    height: 2rem;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.fiesta-baby h3 {
+    height: 2rem;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.fiesta-baby h4 {
+    height: 1.5rem;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+/* SECCION 10 */
+
+.footer {
+    flex-direction: column;
+}
+
+.footer p {
+    height: 2rem;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 4px;
+}
+
+.footer svg {
+    width: 1.4rem;
+}
+
+
+/* SECCION 11 */
+
+#contenedor-interno {
+    padding: 0px;
+    background: rgba(0, 0, 0, 0);
+    width: 700px;
+    height: 450px;
+    position: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    background-color:  rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    align-items: center;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+#btn-cierra {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    padding: 4px;
+}
+
+#btn-retrocede {
+    align-items: center;
+    top: 50%;
+    left: 10px;
+    font-size: 2rem;
+    padding: 3px;
+    padding-right: 6px;
+}
+
+#btn-adelanta {
+    top: 50%;
+    right: 10px;
+    font-size: 2rem;
+    padding: 3px;
+    padding-left: 6px;
+}
+
+.firma{
+font-size: 9px;
+}
+
+
+
+.player .control-panel .controls .play{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+}
+
+
+
+
+@media (min-width: 410px) and  (max-width: 576px){
+    #contenedor-interno {
+        padding: 0px;
+        background: rgba(0, 0, 0, 0);
+        width: 700px;
+        height: 500px;
+        position: center;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #btn-cierra {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 2rem;
+        padding: 5px;
+    }
+    
+    #btn-retrocede {
+        align-items: center;
+        top: 50%;
+        left: 10px;
+        font-size: 2rem;
+        padding: 4px;
+        padding-right: 6px;
+    }
+    
+    #btn-adelanta {
+        top: 50%;
+        right: 10px;
+        font-size: 2rem;
+        padding: 4px;
+        padding-left: 6px;
+    }
+
+
+}
+
+
+
+
+
+
+@media (min-width: 576px) and  (max-width: 1024px) {
+
+
+/* SECCION 1 */
+
+.principal h1 {
+    font-size: 4.5rem;
+}
+
+.principal h2 {
+    font-size: 1rem;
+}
+
+/* SECCION 2  */
+
+
+.icono-texto svg {
+    width: 80px;
+    height: 90px;
+}
+
+.icono-texto h2 {
+    height: 3rem;
+    font-size: 1.5rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.icono-texto P {
+    font-size: 12px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+/* ? ----- SECCION 3 Cuenta Regresiva ----- */
+
+#cuenta {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+	justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.simply-section {
+	width: 120px;
+	height: 120px;
+	margin: 0;
+}
+
+.simply-amount {
+	font-size: 30px;
+}
+
+.simply-word {
+	font-size: 16px;
+}
+
+
+/*SECCION 4*/
+
+
+.informacion {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion svg {
+    width: 65px;
+}
+
+.informacion h2 {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.informacion h3 {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.informacion h4 {
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.button a {
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+
+/* SECCION 5 */
+
+.titulo {
+    font-size: 29px;
+    align-items: center;
+}
+
+.subtitulo {
+    font-size: 15px;
+}
+
+.confirma {
+    height: 2rem;
+    font-size: 15px;
+}
+
+.valores {
+    height: 10rem;
+    font-size: 15px;
+}
+
+.valores h4 {
+    margin: 6px;
+}
+
+.valores h5 {
+    margin: 6px;
+}
+
+.button {
+    height: 4rem;
+}
+
+.button a {
+    font-size: 14px;
+}
+
+.comprobante h3 {
+    font-size: 22px;
+}
+
+.cbu {
+    font-size: 12px;
+}
+
+.alias {
+    font-size: 12px;
+}
+
+/* SECCION 6 */
+
+
+.recuerdos {
+    height: 30rem;
+}
+
+.bi-bi-camera2 {
+    width: 100%;
+    height: 85px;
+}
+
+.hashtag {
+    font-size: 24px;
+}
+
+.gran-dia {
+    height: 2rem;
+    font-size: 14x;
+}
+
+.etiquetanos {
+    height: 2.5rem;
+    font-size: 12px;
+}
+
+/* SECCION 7  */
+
+.historia {
+    height: 5rem;
+}
+
+.svg-h2 {
+    gap: 0.5rem;
+}
+
+.svg-h2 svg{
+    width: 13px;
+}
+
+.svg-h2 h2 {
+    font-size: 25px;
+}
+
+.historia h3 {
+    font-size: 13px;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.gallery__img {
+    width: 85%;
+    height: 100%;
+}
+
+.gallery__img:hover{
+    transform: none;
+}
+
+#galeria {
+    margin: 0;
+    padding-top: 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    grid-template-areas:
+    "img1 img1 img2 img2"
+    "img3 img3 img4 img4"
+    "img5 img5 img6 img6"
+    "img7 img7 img8 img8"
+    "img9 img9 img10 img10"
+    "img11 img11 img12 img12";
+    gap: 0.9rem;
+}
+
+/*  SECCION 8 */
+
+#img-activa {
+    width: 100%;
+}
+
+
+/* SECCION 9 */
+
+
+.fiesta-baby {
+    width: 80%;
+    height: 15rem;
+}
+
+.fiesta-baby h2 {
+    height: 3rem;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.fiesta-baby h3 {
+    height: 2rem;
+    font-size: 0.9rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.fiesta-baby h4 {
+    height: 2rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+/* SECCION 10 */
+
+.footer p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer svg {
+    width: 1.4rem;
+}
+
+
+
+/* SECCION 11 */
+
+
+#contenedor-interno {
+    padding: 100px;
+    background: rgba(0, 0, 0, 0);
+    width: 600px;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    background-color:  rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    align-items: center;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+
+#btn-cierra {
+    position: absolute;
+    top: 110px;
+    right: 15px;
+    font-size: 2rem;
+}
+
+#btn-retrocede {
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 15px;
+    font-size: 2rem;
+}
+
+#btn-adelanta {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    font-size: 2rem;
+}
+}
+
+
+
+
+
+
+
+
